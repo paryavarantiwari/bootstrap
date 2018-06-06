@@ -1,0 +1,127 @@
+
+			html, body{
+				font-size:16px;
+				height:100%;
+				background-color: #808000;
+				line-height: normal;
+			}
+			
+			.body{
+				height:80%;
+				color:black;
+			}
+			.nav{
+				background-color: orange;
+
+			}
+			.type{
+				color:green;
+			}
+			.msgs{
+				background-color: #00C9B1;
+			}
+
+			.nav > li > a {
+				color: #020205;
+			}
+			
+			ul > li :hover {
+				text-decoration: none !important;
+				background-color: white;
+				color: #020205;
+			}
+			
+			.txt-one{
+				color:#111F4D;
+			}
+
+			.txt-two{
+				background-color:#F2F4F7;
+			}
+			
+			.bg{
+				background-color: #e4dbd4;
+			}
+			
+			.prfl-one{
+				background-color: #FFFFFF;
+			}
+
+			.prfl-two{
+				background-color: #BBDED6;
+			}
+
+/* for Extra Large Devices*/
+@media screen and (min-width:1200px){
+	.head{
+		font-size:1.8em;
+		background-color: #111F4D;
+	}
+	p{
+		font-size:1.2em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size:1.4em;
+	}
+	
+}
+
+/*For Large Devices*/
+@media screen and (min-width:992px) and (max-width:1199px){
+	.head{
+		font-size:1.6em;
+		background-color: #111F4D;
+	}
+	p{
+		font-size:1em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size:1.3em;
+	}
+	
+}
+
+/*For Medium Devices*/
+@media screen and (min-width:768px) and (max-width:991px){
+	.head{
+		font-size:1.6em;
+		background-color: #111F4D;
+	}
+	p{
+		font-size:1em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size:1.3em;
+	}
+	
+}
+
+/*For Small Devices*/
+@media screen and (min-width:576px) and (max-width:767px){
+	.head{
+		font-size:1.4em;
+		background-color: #111F4D;
+	}
+	p{
+		font-size:0.9em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size:1.2em;
+	}
+	
+}
+
+/*For Mobile Devices*/
+@media screen and (max-width:575px){
+	.head{
+		font-size:1.4em;
+		background-color: #111F4D;
+	}
+	p{
+		font-size:0.9em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size:1.2em;
+	}
+
+}
